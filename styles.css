@@ -1,0 +1,63 @@
+
+
+html{ 
+    background-color: rgb(116, 170, 170);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.tile {
+    border: 3px solid rgb(44, 8, 190);
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.tile-green {
+    background-color: green;
+    color: rgb(171, 14, 72);
+}
+
+.tile-yellow {
+    background-color: yellow;
+    color: rgb(153, 66, 167);
+}
+
+.tile-gray {
+    background-color: gray;
+    color: rgb(153, 66, 167);
+}
+
+
+.keyboard{
+    margin-block: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.key{
+    min-width: 30px;
+    border-radius:5px ;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
