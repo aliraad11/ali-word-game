@@ -8,7 +8,7 @@ let words = [
   "Iron",
   "Nose",
   "Hair",
-  "Cash",
+  "Cash"
 ];
 const randomIndex = Math.floor(Math.random() * 9);
 let word = words[randomIndex].toUpperCase();
@@ -25,6 +25,9 @@ function onKeyClick(e) {
   if (!tile) {
     return;
   }
+  // function plyAudio() {
+  //   document.getElementById("audio").play();
+  // }
 
   tile.innerHTML = e.target.innerHTML;
 
