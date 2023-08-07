@@ -39,8 +39,7 @@
 
 
         <section class="keyboard">
-            <!-- <audio id="sound1" src="yoursound.mp3" preload="auto"></audio>
-                <button onclick="document.getElementById('sound1').play();">Playit</button> -->
+           
             <div>
                 <button class="key" onclick="onKeyClick(event)">Q</button>
                 <button class="key" onclick="onKeyClick(event)">W</button>
@@ -76,6 +75,7 @@
                 <button class="key" onclick="onKeyClick(event)">N</button>
                 <button class="key" onclick="onKeyClick(event)">M</button>
                 <button class="key" onclick="onBackSpace(event)">Back</button>
+
             </div>
 
         </section>
@@ -84,15 +84,13 @@
     <dialog class="win-dialog">
         <h2>Congrats!</h2>
         <h3>You won the game!</h3>
-        <button onclick="location.reload()">Restart the game</button> 
-        <!-- <button onclick="document.querySelector('.win-dialog').close()">Keep Going</button> -->
+
     </dialog>
 
     <dialog class="lose-dialog">
         <h2>Sorry!</h2>
         <h3>You can try again</h3>
         <button onclick="location.reload()">Restart the game</button> 
-        <!-- <button onclick="document.querySelector('.win-dialog').close()">Keep Going</button> -->
     </dialog>
 
     <script src="app.js"></script>

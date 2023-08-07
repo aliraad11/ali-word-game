@@ -25,9 +25,7 @@ function onKeyClick(e) {
   if (!tile) {
     return;
   }
-  // function plyAudio() {
-  //   document.getElementById("audio").play();
-  // }
+
 
   tile.innerHTML = e.target.innerHTML;
 

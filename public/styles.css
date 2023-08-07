@@ -2,15 +2,11 @@ html{
     
     background: linear-gradient(90deg, 
     rgba(134,180,58,0.47306862198004207) 13%, 
-    rgba(253,29,183,0.4114439721200981) 50%, rgba(103,118,182,0.5066820673581933) 100%);
-    /* background-size: 100% 1000px;
-    background-repeat: no-repeat; */
-    /* background-size: cover; */
-/* width: auto;
-height: auto; */
+    rgba(253,29,183,0.4114439721200981) 50%, 
+    rgba(103,118,182,0.5066820673581933) 100%);
+    
 }
 
-/* body background-color: rgb(228, 124, 173);} */
 
 main{
     display: flex;
@@ -20,18 +16,15 @@ main{
 }
 
 .tiles{
-    /* background-color: rgb(134, 181, 164); */
 
-    /* opacity: 0.5; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    /* gap-color: rgb( 171, 14, 72); */
+   
 }
 
 .tile {
     border: 3px solid rgb(2, 2, 16);
-    /* background-color: rgb(134, 181, 164); */
     opacity: 1;
     border-radius: 5px;
     width: 60px;
